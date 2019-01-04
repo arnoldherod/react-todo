@@ -21,7 +21,7 @@ function TodoItems(props){
         <li key={task.key}>
           {task.name}
           <button onClick={() => props.deleteTask(task.key)}> Delete </button>
-          <button onClick={() => props.updTask(task.name)}> Update </button>
+          <button onClick={() => props.updTask(task)}> Update </button>
         </li>
       ))}  
     </ul>
